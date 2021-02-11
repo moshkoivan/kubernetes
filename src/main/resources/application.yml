@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: kubernetes
+
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    deserialization:
+      fail-on-unknown-properties: false
